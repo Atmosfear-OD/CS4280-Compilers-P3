@@ -1,0 +1,7 @@
+$$ p3b2.fs21 $$
+
+main
+
+begin
+    getter x ; $$ ERROR: x has not been declared $$
+end

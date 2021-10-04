@@ -1,0 +1,13 @@
+$$ p3b7.fs21 $$
+data x := 0 ;
+main
+begin
+    begin
+        data y := 1 ;
+        outter x + y ;
+    end
+    begin
+        data z := 2 ;
+        outter x + y + z ; $$ ERROR: y has not been declared $$
+    end
+end

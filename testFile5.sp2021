@@ -1,0 +1,17 @@
+$$ p2g5 $$
+data z := 321 ;
+data y := 567 ;
+main
+begin
+data a := 5 ;
+void x ;
+loop [ y => z ]
+  begin
+  data z := 3 ;
+     begin
+     proc x ; 
+     end
+  end ;
+outter x ;
+assign z := 4 ;
+end
